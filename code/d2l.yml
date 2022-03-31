@@ -1,0 +1,56 @@
+name: e1
+channels:
+  - https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - blas=1.0=mkl
+  - ca-certificates=2022.2.1=h06a4308_0
+  - certifi=2020.6.20=pyhd3eb1b0_3
+  - cffi=1.14.6=py36h400218f_0
+  - cudatoolkit=11.3.1=h2bc3f7f_2
+  - freetype=2.11.0=h70c0345_0
+  - jpeg=9d=h7f8727e_0
+  - ld_impl_linux-64=2.35.1=h7274673_9
+  - libffi=3.3=he6710b0_2
+  - libgcc=7.2.0=h69d50b8_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libpng=1.6.37=hbc83047_0
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - libtiff=4.2.0=h85742a9_0
+  - libtorch=0.1.12=0
+  - libwebp-base=1.2.2=h7f8727e_0
+  - lz4-c=1.9.3=h295c915_1
+  - mkl=2017.0.3=0
+  - ncurses=6.3=h7f8727e_2
+  - numpy=1.13.1=py36_0
+  - olefile=0.46=py36_0
+  - openssl=1.1.1m=h7f8727e_0
+  - pillow=6.2.1=py36hd70f55b_1
+  - pip=21.2.2=py36h06a4308_0
+  - pycparser=2.21=pyhd3eb1b0_0
+  - python=3.6.13=h12debd9_1
+  - readline=8.1.2=h7f8727e_1
+  - setuptools=58.0.4=py36h06a4308_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.37.2=hc218d9a_0
+  - tk=8.6.11=h1ccaba5_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7f8727e_4
+  - zstd=1.4.9=haebb681_0
+  - pip:
+    - dataclasses==0.8
+    - pyyaml==6.0
+    - torch==1.10.1
+    - torchvision==0.11.2
+    - typing-extensions==4.1.1
+prefix: /home/wanxl/anaconda3/envs/e1
